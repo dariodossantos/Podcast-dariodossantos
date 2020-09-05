@@ -1,0 +1,155 @@
+@media screen and (min-width: 1250px){
+    .footer{
+        grid-area: footer;
+        height: 613px;
+        .ult-nov{
+            height: 518px;
+            background: linear-gradient(177deg, rgba(255,255,255,0) 12.8%, rgba(0,0,255,1) 12.9%, rgba(0,0,255,1) 100%);
+            .txt-ult-nov{
+                padding-top: 213px;
+                font-size: 48px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                text-align: center;
+            }
+            .btn-ult-nov{
+                width: 345px;
+                height: 56px;
+                background: #00F3BB;
+                margin-left: 547px;
+                margin-top: 36px;
+                border: none;
+                .btn-ult-nov-p{
+                    padding: 16px 0px 16px 0px;
+                    text-align: center;
+                }
+                &:hover{
+                    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                    cursor:pointer;
+                    a{
+                        color: #ffffff;
+                    }
+                }
+
+                .txt-btn-ult-nov{
+                    font-size: 18px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    text-align: center;
+                    line-height: 24px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .contenedor-f{
+            height: 95px;
+            display: flex;
+            justify-content: space-between;
+            .m-t-f{
+                padding-top: 36px;
+                padding-left: 100px;
+                .estilo-h2{
+                    font-size: 16px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    line-height: 28px;
+                }
+            }
+            .fa{
+                font-size: 18px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 28px;
+                padding-left: 36px;
+                padding-top: 36px;
+                .fa-l{
+                    list-style: none;
+                    text-decoration: none;
+                }
+            }
+            .fa-5{
+                margin-right: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .footer{
+        grid-area: footer;
+        .ult-nov{
+            background: linear-gradient(177deg, rgba(255,255,255,0) 12.8%, rgba(0,0,255,1) 12.9%, rgba(0,0,255,1) 100%);
+            display: flex;
+            flex-direction: column;
+            .txt-ult-nov{
+                font-size: 36px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 42px;
+                margin: 64px 16px 36px 16px;
+            }
+            .btn-ult-nov{
+                background: #00F3BB;
+                margin-bottom: 67px;
+                width: 288px;
+                height: 48px;
+                align-self: center;
+                border: none;
+                .btn-ult-nov-p{
+                    padding: 13px 0px 13px 0px;
+                    text-align: center;
+                    .txt-btn-ult-nov{
+                        font-size: 16px;
+                        color: #060A24;
+                        letter-spacing: 0;
+                        text-align: center;
+                        line-height: 22px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .contenedor-f{
+            display: flex;
+            flex-direction: column;
+            .m-t-f{
+                padding-top: 24px;
+                align-self: center;
+                .estilo-h2{
+                    font-size: 14px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                }
+            }
+            .fa-f-c{
+                align-self: center;
+                padding-top: 16px;
+                padding-bottom: 31px;
+                .fa{
+                    font-size: 16px;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    line-height: 28px;
+                    padding-left: 15px;
+                    .fa-l{
+                        list-style: none;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width:750px) and (max-width: 1250px){
+    .footer{
+        grid-area: footer;
+        .ult-nov{
+            background: linear-gradient(177deg, rgba(255,255,255,0) 19.8%, rgba(0,0,255,1) 19.9%, rgba(0,0,255,1) 100%) !important;
+        }
+    }
+}
